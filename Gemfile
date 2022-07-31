@@ -5,6 +5,9 @@ ruby "3.1.2"
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "~> 7.0.3", ">= 7.0.3.1"
+gem 'bootstrap-sass', '~> 3.4', '>= 3.4.1'
+gem 'sassc-rails', '>= 2.1.0'
+gem 'jquery-rails'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
@@ -54,10 +57,7 @@ group :development, :test do
   gem "sqlite3", "~> 1.4"
 end
 
-group :production do
-  gem "pg", '0.17.1'
-  gem "rails_12factor" ,'0.0.2'
-end
+
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
