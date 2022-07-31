@@ -11,7 +11,7 @@ gem 'jquery-rails'
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
-
+gem 'devise', '~> 4.8', '>= 4.8.1'
 # Use sqlite3 as the database for Active Record
 
 
